@@ -45,15 +45,6 @@ meetingControllers.update=(req,res)=>{
         res.json(err)
     })
 }
-// tasksCltr.destroy=(req,res)=>{
-//     const id=req.params.id
-//     Task.findByIdAndDelete(id)
-//         .then((task)=>{
-//             res.json(task)
-//         })
-//         .catch((err)=>{
-//             res.json(err)
-//         })
-// }
+
 
 module.exports=meetingControllers
